@@ -118,27 +118,27 @@ Each mushroom in the dataset is described by the following features:
 | **Attribute**                   | **Description**                                                |
 |----------------------------------|------------------------------------------------------------------|
 | Class                            | Edible (e) or Poisonous (p)                                     |
-| Cap Shape                       | Bell, Conical, Convex, Flat, Knobbed, or Sunken                |
-| Cap Surface                     | Fibrous, Grooves, Scaly, or Smooth                              |
-| Cap Color                       | Brown, Buff, Cinnamon, Gray, Green, Pink, Purple, Red, White, or Yellow |
+| Cap-Shape                       | Bell (b), Conical (c), Convex (x), Flat (f), Knobbed (k), or Sunken (s)                |
+| Cap Surface                     | Fibrous (f), Grooves (g), Scaly (y), or Smooth (s)                              |
+| Cap-Color                       | Brown (n), Buff (b), Cinnamon (c), Gray (g), Green (r), Pink (p), Purple (u), Red (e), White (w), or Yellow (y) |
 | Bruises                         | Yes (t) or No (f)                                              |
-| Odor                            | Almond, Anise, Creosote, Fishy, Foul, Musty, None, Pungent, or Spicy |
-| Gill Attachment                 | Attached (a), Free (f), or Notched (n)                         |
-| Gill Space                      | Close (c), Crowded (w), or Uneven (e)                          |
-| Gill Color                      | Black, Brown, Buff, Chocolate, Gray, Green, Orange, Pink, Purple, Red, White, or Yellow |
-| Stalk Shape                     | Enlarging (e) or Tapering (t)                                  |
-| Stalk Root                      | Bulbous (b), Club (c), Cup (u), or Equal (e)                  |
-| Stalk Surface Above Ring        | Fibrous, Scaly, Smooth, or Silky                                |
-| Stalk Surface Below Ring        | Fibrous, Scaly, Smooth, or Silky                                |
-| Stalk Color Above Ring          | Brown, Buff, Cinnamon, Gray, Green, Orange, Pink, Purple, Red, White, or Yellow |
-| Stalk Color Below Ring          | Brown, Buff, Cinnamon, Gray, Green, Orange, Pink, Purple, Red, White, or Yellow |
-| Veil Type                       | Partial (p) or Universal (u)                                   |
-| Veil Color                      | Brown, Orange, White, or Yellow                                 |
-| Ring Number                     | None (n), One (o), or Two (t)                                  |
-| Ring Type                       | Bunched (b), Cobwebby (c), Double (d), None (n), or Pendant (p) |
-| Spore Print Color               | Black, Brown, Buff, Chocolate, Green, Orange, Pink, Purple, Red, White, or Yellow |
-| Population                      | Abundant (a), Clustered (c), Numerous (n), Scattered (s), or Several (v) |
-| Habitat                         | Grasses, Leaves, Meadows, Paths, Urban, Waste, Woods           |
+| Odor                            | Almond (a), Anise (l), Creosote (c), Fishy (y), Foul (f), Musty (m), None (n), Pungent (p), or Spicy (s) |
+| Gill-Attachment                 | Attached (a), descending (d), Free (f), or Notched (n)                         |
+| Gill-Spacing                      | Close (c), Crowded (w), distant (d)                         |
+| Gill-Color                      | Black (k), Brown (n), Buff (b), Chocolate (h), Gray (g), Green (r), Orange (o), Pink (p), Purple (u), Red (e), White (w), or Yellow (y) |
+| Stalk-Shape                     | Enlarging (e) or Tapering (t)                                  |
+| Stalk-Root                      | Bulbous (b), Club (c), Cup (u), Equal (e), rhizomorphs (z), or Rooted (r)                 |
+| Stalk-Surface-Above-Ring        | Fibrous (f), Scaly (y), Silky (k), or Smooth (s)                                |
+| Stalk-Surface-Below-Ring        | Fibrous (f), Scaly (y), Silky (k), or Smooth (s)                                |
+| Stalk-Color-Above-Ring          | Brown (n), Buff (b), Cinnamon (c), Gray (g), Orange (o), Pink (p), Red (e), White (w), or Yellow (y) |
+| Stalk-Color-Below-Ring          | Brown (n), Buff (b), Cinnamon (c), Gray (g), Orange (o), Pink (p), Red (r), White (w), or Yellow (y) |
+| Veil-Type                       | Partial (p) or Universal (u)                                   |
+| Veil-Color                      | Brown (n), Orange (o), White (w), or Yellow (y)                                 |
+| Ring-Number                     | None (n), One (o), or Two (t)                                  |
+| Ring-Type                       | Cobwebby (c), Evanescent (e), Flaring (f), Large (l), None (n), Pendant (p), Sheathing (s), or Zone (z) |
+| Spore-Print-Color               | Black (k), Brown (n), Buff (b), Chocolate (h), Green (r), Orange (o), Purple (u), White (w), or Yellow (y) |
+| Population                      | Abundant (a), Clustered (c), Numerous (n), Scattered (s), Several (v), or Solitary (y) |
+| Habitat                         | Grasses (g), Leaves (l), Meadows (m), Paths (p), Urban (u), Waste (w), Woods (d)           |
 
 </div>
 
