@@ -7,6 +7,33 @@
 
 ![i](https://github.com/user-attachments/assets/519d83b8-7c26-414f-a05a-24313248282b)
 
+ <h1 align="center"> 🌟🦖All About Linear Regression🦖🌟
+
+ ###
+ 
+## 🕹️ Linear Regression
+
+## 🎮 Purpose
+
+## 🔧 Linear Regression Formula
+
+The Linear regression equation is represented as:
+
+$$
+\huge
+ŷ = b_0 + b_1X_1 + b_2X_2 + ... + b_nX_n
+$$
+
+### Where:
+
+- $$ŷ$$: Dependent variable. 
+- $$b_0$$: y-intercept (constant term). 
+- $$b_1, b_2, ..., b_n$$: Slope coefficients. 
+- $$X_1, X_2, ..., X_n$$: Independent variables.
+
+## 🏁 Some Use Cases
+
+
 ![i (2)](https://github.com/user-attachments/assets/c6ba8522-4b52-4eb8-bcf1-3fafe818b392)
 
  <h1 align="center"> 🌟🦖All About Logistic Regression🦖🌟
@@ -32,10 +59,10 @@ $$
 ### Where:
 - $$p$$: Probability of the event occurring.
 - $$\(\frac{p}{1 - p}\)$$: Odds of the event occurring.
-- $$\(\ln \left(\frac{p}{1 - p}\right)\)$$: Natural logarithm of the odds (log-odds).
-- $$\(b_0\)$$: Intercept (constant term).
+- $$\(\ln \left(\frac{p}{1 - p}\right)\)$$: Natural logarithm of the odds.
+- $$\(b_0\)$$: Intercept.
 - $$\(b_1, b_2, b_3, b_4\)$$: Coefficients for the independent variables.
-- $$\(X_1, X_2, X_3, X_4\)$$: Independent variables (predictors).
+- $$\(X_1, X_2, X_3, X_4\)$$: Independent variables.
 
 This formula is used in logistic regression to model the probability of a binary outcome based on one or more independent variables.
 
