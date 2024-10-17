@@ -125,6 +125,7 @@ Each mushroom in the dataset is described by the following features:
 | Odor                            | Almond (a), Anise (l), Creosote (c), Fishy (y), Foul (f), Musty (m), None (n), Pungent (p), or Spicy (s) |
 | Gill-Attachment                 | Attached (a), descending (d), Free (f), or Notched (n)                         |
 | Gill-Spacing                      | Close (c), Crowded (w), distant (d)                         |
+| Gill-Size                       | Broad (b), or Narrow (n) |
 | Gill-Color                      | Black (k), Brown (n), Buff (b), Chocolate (h), Gray (g), Green (r), Orange (o), Pink (p), Purple (u), Red (e), White (w), or Yellow (y) |
 | Stalk-Shape                     | Enlarging (e) or Tapering (t)                                  |
 | Stalk-Root                      | Bulbous (b), Club (c), Cup (u), Equal (e), rhizomorphs (z), or Rooted (r)                 |
