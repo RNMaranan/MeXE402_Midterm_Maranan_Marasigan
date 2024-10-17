@@ -1,1 +1,2 @@
-![Copy of Magic Mushroom Identification Workshop by Slidesgo pptx (1)](https://github.com/user-attachments/assets/46345dc5-cd13-4617-84c9-aff8449ba5d9)
+![Copy of Economy Major for College_ Probability and Statistics by Slidesgo pptx](https://github.com/user-attachments/assets/41166704-3846-4496-a451-a34a4e3e0641)
+
