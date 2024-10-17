@@ -1,2 +1,1 @@
-# MeXE402_Midterm_Maranan_Marasigan
-This is our midterm examination for MeXE 402, which focuses on Linear Regression and Logistic Regression, made by Ralph Neil Maranan and Stanlee Marasigan from MEXE 4101.
+![Copy of Magic Mushroom Identification Workshop by Slidesgo pptx](https://github.com/user-attachments/assets/8312942a-5eff-4adf-8402-ee31158d5cff)
