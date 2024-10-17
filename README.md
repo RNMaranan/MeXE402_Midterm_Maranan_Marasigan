@@ -85,5 +85,13 @@ This formula is used in logistic regression to model the probability of a binary
 ![i (2)](https://github.com/user-attachments/assets/0121a6dc-0fea-4caf-b7bb-f0689e9050ce)
 
 
+### References
+Statistics Solutions, “What is Logistic Regression? - Statistics Solutions,” Statistics Solutions, Apr. 22, 2024. https://www.statisticssolutions.com/free-resources/directory-of-statistical-analyses/what-is-logistic-regression/
+
+“What is Logistic Regression? - Logistic Regression Model Explained - AWS,” Amazon Web Services, Inc. https://aws.amazon.com/what-is/logistic-regression/
+
+Statistics Solutions, “What is Logistic Regression? - Statistics Solutions,” Statistics Solutions, Apr. 22, 2024. https://www.statisticssolutions.com/free-resources/directory-of-statistical-analyses/what-is-logistic-regression/
+
+
 
 
