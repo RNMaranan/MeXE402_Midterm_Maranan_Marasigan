@@ -31,6 +31,8 @@ $$
 - $$b_1, b_2, ..., b_n$$: Slope coefficients. 
 - $$X_1, X_2, ..., X_n$$: Independent variables.
 
+This formula is used in linear regression to model the relationship between a dependent variable and one or more independent variables by fitting a straight line.
+
 ## 🏁 Some Use Cases
 
 
@@ -90,6 +92,8 @@ This formula is used in logistic regression to model the probability of a binary
 ![i (3)](https://github.com/user-attachments/assets/108164eb-0f40-4a79-b6fc-eb8d0dd63971)
 
 ## 🪻Project Objectives
+
+![i (5)](https://github.com/user-attachments/assets/6b65602f-102d-4c84-8893-b9978c22622e)
 
 ###
 
@@ -160,6 +164,9 @@ UCI Machine Learning Repository
 - Evaluate and improve the classification accuracy of mushrooms as edible or poisonous using various programming techniques and machine learning algorithms.
 
 ###
+
+![i (6)](https://github.com/user-attachments/assets/9e26c38c-7b88-42a8-8a19-c445fb36c4a0)
+
 
 ### References
 Statistics Solutions, “What is Logistic Regression? - Statistics Solutions,” Statistics Solutions, Apr. 22, 2024. https://www.statisticssolutions.com/free-resources/directory-of-statistical-analyses/what-is-logistic-regression/
