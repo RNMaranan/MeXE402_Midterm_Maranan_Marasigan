@@ -167,6 +167,57 @@ UCI Machine Learning Repository
 
 ![i (6)](https://github.com/user-attachments/assets/9e26c38c-7b88-42a8-8a19-c445fb36c4a0)
 
+## 🍄Step-by-Step Logistic Regression Analysis
+
+**Step 1. Converting letters into numerical values** 
+
+![conv](https://github.com/user-attachments/assets/17e1d350-b681-4aee-9df3-d8900450b8cf)
+
+&nbsp;&nbsp;&nbsp;&nbsp; In this step, every letter in the data will be converted into numerical values because the model is designed to establish a linear relationship between a dependent variable (the output) and one or more independent variables (the inputs).
+
+&nbsp;&nbsp;&nbsp;&nbsp; For this mushroom dataset, we assigned the following numerical values to the corresponding letters:
+
+<div align="center">
+ 
+### Class Conversion
+***Poisonous (p) or Edible (e)***
+
+| Letter        | Numerical Value |
+|---------------|-----------------|
+| p             | 0               |
+| e             | 1               |
+
+</div>
+
+<div align="center">
+ 
+### Other Attributes Conversion
+
+#### This includes:
+***Cap-shape, Cap-surface, Cap-color, Bruises, Odor, Gill-attachment, Gill-spacing, Gill-size, Gill-color,***  
+***Stalk-shape, Stalk-root, Stalk-surface-above-ring, Stalk-surface-below-ring, Stalk-color-above-ring,***  
+***Stalk-color-below-ring, Veil-type, Veil-color, Ring-number, Ring-type, Spore-print-color, Population, Habitat***
+
+| Letter | Numerical Value |   | Letter | Numerical Value |
+|--------|-----------------|---|--------|-----------------|
+| a      | 1               |   | n      | 14              |
+| b      | 2               |   | o      | 15              |
+| c      | 3               |   | p      | 16              |
+| d      | 4               |   | r      | 18              |
+| e      | 5               |   | s      | 19              |
+| f      | 6               |   | t      | 20              |
+| g      | 7               |   | u      | 21              |
+| h      | 8               |   | v      | 22              |
+| k      | 11              |   | w      | 23              |
+| l      | 12              |   | x      | 24              |
+| m      | 13              |   | y      | 25              |
+
+
+
+
+</div>
+
+
 
 ### References
 Statistics Solutions, “What is Logistic Regression? - Statistics Solutions,” Statistics Solutions, Apr. 22, 2024. https://www.statisticssolutions.com/free-resources/directory-of-statistical-analyses/what-is-logistic-regression/
