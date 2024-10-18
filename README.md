@@ -216,6 +216,66 @@ UCI Machine Learning Repository
 
 **🍄 Step 2. Perform Data Cleaning**
 
+![vs](https://github.com/user-attachments/assets/d7cd3670-f80f-4b43-91f9-66055d2c7653)
+
+&nbsp;&nbsp;&nbsp;&nbsp; After converting letters to numbers, we can perform data cleaning if we find any missing values in our given dataset.
+In the case of the mushroom dataset, we observed that there are many missing values under column L, which is the stalk-root column.
+
+Aside from checking manually, we can also use VS Code to locate missing values in our dataset by inputting the following code:
+
+```python
+import pandas as pd
+
+# Load the dataset
+data = pd.read_csv('mushroom.csv')  # The file name depends on your assigned file name
+
+# Display the first few rows of the dataset
+print("Preview of the dataset:")
+print(data.head())
+
+# Check for missing values in each column
+missing_values = data.isnull().sum()
+
+# Display the count of missing values for each column
+print("\nMissing values in each column:")
+print(missing_values)
+
+# Find the rows with missing values
+missing_rows = data[data.isnull().any(axis=1)]
+
+# Display the rows with missing values
+print("Rows with missing values:")
+print(missing_rows)
+
+# Step 1: Handle missing values
+# Fill missing numeric values with the mode of the respective columns
+data['stalk-root'].fillna(data['stalk-root'].mode()[0], inplace=True)
+
+# Save the cleaned dataset
+cleaned_file_path = 'C:/Users/Ralph/Downloads/Cleaned_Mushroom.csv' #Depends on your assigned file name
+data.to_csv(cleaned_file_path, index=False)
+
+print("Data cleaning process completed and saved to:", cleaned_file_path)
+
+```
+**Explanation of the Code**
+
+**1. Load the Dataset:** The dataset is loaded from a specified CSV file.
+
+**2. Preview the Dataset:** The first few rows of the dataset are displayed to give an overview of its contents.
+
+**3. Check for Missing Values:** The code checks for missing values in each column and prints the count.
+
+**4. Identify Rows with Missing Values:** It identifies and prints the rows that contain any missing values.
+
+**5. Handle Missing Values:** We use the mode for handling missing values because we are dealing with categorical data in the stalk-root attribute. The mode, representing the most frequently occurring value, is more suitable in this context as it preserves the characteristics of the dataset while effectively addressing missing values.
+
+**6. Save the Cleaned Dataset:** Finally, the cleaned dataset is saved to a new CSV file, and a confirmation message is printed.
+
+
+
+
+
 
 ### References
 Statistics Solutions, “What is Logistic Regression? - Statistics Solutions,” Statistics Solutions, Apr. 22, 2024. https://www.statisticssolutions.com/free-resources/directory-of-statistical-analyses/what-is-logistic-regression/
