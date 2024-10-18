@@ -169,7 +169,7 @@ UCI Machine Learning Repository
 
 ## 🍄Step-by-Step Logistic Regression Analysis
 
-**Step 1. Converting letters into numerical values** 
+**🍄Step 1. Converting letters into numerical values** 
 
 ![conv](https://github.com/user-attachments/assets/17e1d350-b681-4aee-9df3-d8900450b8cf)
 
@@ -212,11 +212,9 @@ UCI Machine Learning Repository
 | l      | 12              |   | x      | 24              |
 | m      | 13              |   | y      | 25              |
 
-
-
-
 </div>
 
+**🍄 Step 2. Perform Data Cleaning**
 
 
 ### References
