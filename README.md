@@ -300,6 +300,8 @@ print("Data cleaning process completed and saved to:", cleaned_file_path)
 
 
 ### References
+“Iris Dataset,” Kaggle, Aug. 03, 2017. https://www.kaggle.com/datasets/vikrishnan/iris-dataset
+
 Statistics Solutions, “What is Logistic Regression? - Statistics Solutions,” Statistics Solutions, Apr. 22, 2024. https://www.statisticssolutions.com/free-resources/directory-of-statistical-analyses/what-is-logistic-regression/
 
 “What is Logistic Regression? - Logistic Regression Model Explained - AWS,” Amazon Web Services, Inc. https://aws.amazon.com/what-is/logistic-regression/
