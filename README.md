@@ -207,7 +207,7 @@ UCI Machine Learning Repository
 
 ### 🍄 Data Preprocessing
 
-### 🍄Step 1. Converting letters into numerical values 
+**🍄Step 1. Converting letters into numerical values**
 
 ![conv](https://github.com/user-attachments/assets/17e1d350-b681-4aee-9df3-d8900450b8cf)
 
@@ -254,7 +254,7 @@ UCI Machine Learning Repository
 
 ###
 
-### 🍄 Step 2. Perform Data Cleaning
+**🍄 Step 2. Perform Data Cleaning**
 
 ![vs](https://github.com/user-attachments/assets/d7cd3670-f80f-4b43-91f9-66055d2c7653)
 
@@ -314,9 +314,9 @@ print("Data cleaning process completed and saved to:", cleaned_file_path)
 
 ###
 
-### 🍄 Step 3. Classification Accuracy Using Programming
+### 🍄Model Implementation
 
-🍄***Model Implementation***
+**🍄 Step 3. Classification Accuracy Using Programming**
 
 &nbsp;&nbsp;&nbsp;&nbsp; In this part of the analysis, these are the sections of the code where you import libraries and modules that facilitate the implementation of logistic regression. Specifically, it involves using libraries like Pandas for data manipulation and Scikit-learn (sklearn) for model training and evaluation.
 
@@ -362,7 +362,7 @@ Explanation:
 
 **8. import seaborn as sns:** Imports the Seaborn library, which provides a high-level interface for drawing attractive statistical graphics.
 
-🍄 ***Evaluation Metrics***
+### 🍄 Evaluation Metrics
 
 &nbsp;&nbsp;&nbsp;&nbsp; After performing data preprocessing and importing the necessary libraries for analysis and visualization, we can now proceed to obtain the inputs and outputs of the given dataset.
 
@@ -437,7 +437,7 @@ confusion_matrix (y_test, y_pred)
 from sklearn.metrics import accuracy_score
 accuracy_score (y_test, y_pred)
 ```
-🍄 ***Visualization: Confusion Matrices***
+### 🍄 Visualization: Confusion Matrices
 
 ![visuals](https://github.com/user-attachments/assets/283c442e-364b-49f6-9f09-3b7a62e6f5ca)
 
@@ -473,7 +473,9 @@ plt.title('Confusion Matrix')
 plt.show()
 ```
 
-### 🍄 Step 4. Interpretation
+### 🍄 Interpretation
+
+**🍄 Step 4. Interptetation**
 
 **Model's Classification Ability**
 
