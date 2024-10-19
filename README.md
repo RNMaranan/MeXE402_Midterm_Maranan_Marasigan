@@ -438,9 +438,37 @@ accuracy_score (y_test, y_pred)
 
 ![visuals](https://github.com/user-attachments/assets/283c442e-364b-49f6-9f09-3b7a62e6f5ca)
 
+
 <p align="center">
-  <img src="[https://github.com/user-attachments/assets/197b4402-8118-4b4a-9355-26e9c9da70db]" alt="Visualization: Plot Confusion Matrices" width="500"/>
+  <strong>Visualization: Plot Confusion Matrices</strong>
+  <br>
+  <img src="https://github.com/user-attachments/assets/cdb5bb82-24ba-4433-b066-4de0ae3aacf7" alt="Visualization: Plot Confusion Matrices" width="500"/>
 </p>
+
+```python 
+import matplotlib.pyplot as plt # For plotting graphs
+import seaborn as sns # For enhanced visualizations
+from sklearn.metrics import confusion_matrix
+
+# Generate the confusion matrix
+cm = confusion_matrix(y_test, y_pred)
+
+# Set up the matplotlib figure
+plt.figure(figsize=(8, 6))
+
+# Create a heatmap for the confusion matrix
+sns.heatmap(cm, annot=True, fmt='d', cmap='Reds', 
+            xticklabels=['Edible', 'Poisonous'], 
+            yticklabels=['Edible', 'Poisonous'])
+
+# Labeling the axes and title
+plt.ylabel('True label')
+plt.xlabel('Predicted label')
+plt.title('Confusion Matrix')
+
+# Show the plot
+plt.show()
+```
 
 ### References
 <sub>IBM. (2023). About Linear Regression | IBM. Www.ibm.com; IBM. https://www.ibm.com/topics/linear-regression</sub>
