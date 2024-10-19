@@ -504,6 +504,9 @@ In this case, if the confusion matrix reveals an accuracy of around 96%, it sign
 
 Each feature (e.g., cap shape, cap color, gill attachment, etc.) contributes to the prediction of the class labels. Analyzing feature significance can help identify which characteristics most affect the model's predictions. For example, features such as Cap-Shape, Cap-color, Odor, gill-attachment, and spore print color may have higher correlations with edibility, making them critical for classification.
 
+![i (6)](https://github.com/user-attachments/assets/9c125ee0-0a9b-4038-a82b-54eb4677e378)
+
+
 ### References
 <sub>IBM. (2023). About Linear Regression | IBM. Www.ibm.com; IBM. https://www.ibm.com/topics/linear-regression</sub>
 
