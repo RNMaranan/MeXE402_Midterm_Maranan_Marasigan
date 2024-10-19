@@ -438,8 +438,9 @@ accuracy_score (y_test, y_pred)
 
 ![visuals](https://github.com/user-attachments/assets/283c442e-364b-49f6-9f09-3b7a62e6f5ca)
 
-![vish](https://github.com/user-attachments/assets/197b4402-8118-4b4a-9355-26e9c9da70db)
-
+<p align="center">
+  <img src="[https://github.com/user-attachments/assets/197b4402-8118-4b4a-9355-26e9c9da70db]" alt="Visualization: Plot Confusion Matrices" width="500"/>
+</p>
 
 ### References
 <sub>IBM. (2023). About Linear Regression | IBM. Www.ibm.com; IBM. https://www.ibm.com/topics/linear-regression</sub>
