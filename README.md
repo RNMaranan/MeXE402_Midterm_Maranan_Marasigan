@@ -202,7 +202,9 @@ UCI Machine Learning Repository
 
 ## 🍄Step-by-Step Logistic Regression Analysis
 
-**🍄Step 1. Converting letters into numerical values** 
+### 🍄 Data Preprocessing
+
+### 🍄Step 1. Converting letters into numerical values 
 
 ![conv](https://github.com/user-attachments/assets/17e1d350-b681-4aee-9df3-d8900450b8cf)
 
@@ -247,7 +249,9 @@ UCI Machine Learning Repository
 
 </div>
 
-**🍄 Step 2. Perform Data Cleaning**
+###
+
+### 🍄 Step 2. Perform Data Cleaning
 
 ![vs](https://github.com/user-attachments/assets/d7cd3670-f80f-4b43-91f9-66055d2c7653)
 
@@ -291,7 +295,7 @@ data.to_csv(cleaned_file_path, index=False)
 print("Data cleaning process completed and saved to:", cleaned_file_path)
 
 ```
-**Explanation of the Code**
+**Explanation of the Code:**
 
 **1. Load the Dataset:** The dataset is loaded from a specified CSV file.
 
@@ -305,9 +309,136 @@ print("Data cleaning process completed and saved to:", cleaned_file_path)
 
 **6. Save the Cleaned Dataset:** Finally, the cleaned dataset is saved to a new CSV file, and a confirmation message is printed.
 
+###
 
+### 🍄 Step 3. Classification Accuracy Using Programming
 
+🍄***Model Implementation***
 
+&nbsp;&nbsp;&nbsp;&nbsp; In this part of the analysis, these are the sections of the code where you import libraries and modules that facilitate the implementation of logistic regression. Specifically, it involves using libraries like Pandas for data manipulation and Scikit-learn (sklearn) for model training and evaluation.
+
+The following libraries are used for model implementation:
+
+```python
+# Importing the Dataset
+import pandas as pd  # For data manipulation
+
+# Creating the Training Set and Test Set
+from sklearn.model_selection import train_test_split  # For splitting the dataset into train and test sets
+
+# Feature Scaling
+from sklearn.preprocessing import StandardScaler  # For standardizing features
+
+# Building the Model
+from sklearn.linear_model import LogisticRegression  # For logistic regression implementation
+
+# Confusion Matrix
+from sklearn.metrics import confusion_matrix  # For evaluating the model performance
+from sklearn.metrics import accuracy_score  # For calculating the accuracy of the model
+
+# Visualization Libraries
+import matplotlib.pyplot as plt  # For plotting graphs
+import seaborn as sns  # For enhanced visualizations
+```
+
+Explanation:
+
+**1. import pandas as pd:** Imports the Pandas library, which is essential for data manipulation and analysis, particularly for loading and examining the dataset.
+
+**2. from sklearn.model_selection import train_test_split:** Imports the function used to split your dataset into training and testing subsets.
+
+**3. from sklearn.preprocessing import StandardScaler:** Imports the StandardScaler class for feature scaling, which normalizes the data to improve model performance.
+
+**4. from sklearn.linear_model import LogisticRegression:** Imports the LogisticRegression class, which is necessary for creating and training the logistic regression model.
+
+**5. from sklearn.metrics import confusion_matrix:**  Import functions of the model by calculating the confusion matrix 
+
+**6. from sklearn.metrics import accuracy_score:** Import functions to evaluate the performance of the model by calculating accuracy score.
+
+**7. import matplotlib.pyplot as plt:** Imports the Matplotlib library for creating static, animated, and interactive visualizations in Python.
+
+**8. import seaborn as sns:** Imports the Seaborn library, which provides a high-level interface for drawing attractive statistical graphics.
+
+🍄 ***Evaluation Metrics***
+
+&nbsp;&nbsp;&nbsp;&nbsp; After performing data preprocessing and importing the necessary libraries for analysis and visualization, we can now proceed to obtain the inputs and outputs of the given dataset.
+
+**1. Getting the Inputs and Outputs**
+![inputs](https://github.com/user-attachments/assets/0a202734-c4e0-4da3-bae3-4375bee48aa8)
+
+```python
+#row,column
+X = dataset.iloc[:,1:].values #selecting all columns starting from the second column (index 1) to the last column (independent variables)
+y = dataset.iloc[:,0].values #selecting the first column only (dependent variable)
+
+X #showing the array of all independent variables
+
+y #showing the array of all the dependent variable
+```
+
+**2. Creating the Training Set and Test Set**
+![train test](https://github.com/user-attachments/assets/b5c359ce-b722-4fdf-8821-45a62f80f34c)
+
+```python
+#Imports the function used to split your dataset into training and testing subsets.
+from sklearn.model_selection import train_test_split #library, module, function
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=0)
+
+X_train
+X_test
+
+y_train
+y_test
+
+#test_size=0.2: This parameter specifies the proportion of the dataset to include in the test split. In this case, 0.2 means that 20% of the data will be reserved for testing, while 80% will be used for training the model.
+#random_state=0: This parameter is used to control the randomness of the data splitting. Setting a specific integer (like 0) ensures that the split will be the same each time you run the code, which is useful for reproducibility. If you use a different integer or do not set it, the split may vary with each execution, leading to different results.
+
+```
+**3. Feature Scaling**
+![feature scaling](https://github.com/user-attachments/assets/4c5ca32b-1828-45bf-8651-714ff6d971b0)
+
+```python
+#Imports the StandardScaler class for feature scaling, which normalizes the data to improve model performance.
+from sklearn.preprocessing import StandardScaler
+sc = StandardScaler()
+X_train = sc.fit_transform(X_train)
+
+X_train #show the values for X_train
+```
+**4. Building and Training the Model**
+
+![build and train](https://github.com/user-attachments/assets/50790980-5205-4b50-93c7-e9984a35728e)
+
+```python
+#Building the Model
+#Imports the LogisticRegression class, which is necessary for creating and training the logistic regression model.
+from sklearn.linear_model import LogisticRegression
+model = LogisticRegression(random_state=0)
+
+#Training the Model
+model.fit(X_train,y_train)
+```
+
+**5. Confusion Matrix and Accuracy**
+
+![confu](https://github.com/user-attachments/assets/720ccf7a-8deb-43e1-9ee1-16abde497655)
+
+```python
+#Confusion Matrix
+#Import functions of the model by calculating the confusion matrix
+from sklearn.metrics import confusion_matrix
+confusion_matrix (y_test, y_pred)
+
+#Accuracy
+#Import functions to evaluate the performance of the model by calculating accuracy score.
+from sklearn.metrics import accuracy_score
+accuracy_score (y_test, y_pred)
+```
+🍄 ***Visualization: Confusion Matrices***
+
+![visuals](https://github.com/user-attachments/assets/283c442e-364b-49f6-9f09-3b7a62e6f5ca)
+
+![vish](https://github.com/user-attachments/assets/197b4402-8118-4b4a-9355-26e9c9da70db)
 
 
 ### References
