@@ -484,6 +484,7 @@ plt.show()
 - True Negatives (TN): The number of poisonous mushrooms correctly classified as poisonous.
 - False Positives (FP): The number of poisonous mushrooms incorrectly classified as edible.
 - False Negatives (FN): The number of edible mushrooms incorrectly classified as poisonous.
+  
 For example, if the confusion matrix shows a high number of TP (e.g., 742) and TN (e.g., 818), it indicates that the model performs well in identifying both edible and poisonous mushrooms. Conversely, a high number of FP and FN may highlight potential weaknesses in the model, necessitating further evaluation or feature adjustment.
 
 **Accuracy Calculation**
