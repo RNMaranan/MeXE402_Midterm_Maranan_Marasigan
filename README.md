@@ -506,6 +506,8 @@ Each feature (e.g., cap shape, cap color, gill attachment, etc.) contributes to 
 
 ![i (6)](https://github.com/user-attachments/assets/9c125ee0-0a9b-4038-a82b-54eb4677e378)
 
+![Blue Green Pixel Game Streamer YouTube Banner](https://github.com/user-attachments/assets/0ae8ee0e-7e83-4867-b1a6-c12229683f84)
+
 
 ### References
 <sub>IBM. (2023). About Linear Regression | IBM. Www.ibm.com; IBM. https://www.ibm.com/topics/linear-regression</sub>
