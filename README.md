@@ -100,9 +100,9 @@ This formula is used in logistic regression to model the probability of a binary
 
 - **Number of Attributes:** 5
 
-- **Independent Variables:** 
+- **Independent Variables:** SL: Sepal Length SW: Sepal Width PL: Petal Length PW: Petal Width these variables will be used to predict the outcome
   
-- **Dependent Variable:** 
+- **Dependent Variable:** Class (species: Iris-Setosa, Iris-Versicolour, Iris-Virginica) the outcome variable that the analysis aims to predict.
 
 ## 🪻Attributes
 
@@ -126,11 +126,135 @@ Iris dataset is described by the following features:
 
 ## 🪻Project Objectives
 
+**1. Converting Letters into Numerical Values:** 
+- Transform categorical attributes into numerical values to facilitate the application of machine learning algorithms.
+  
+**2. Classification Accuracy Using Programming:**
+- Evaluate and improve the classification accuracy of Class as Iris setosa, Iris versicolor, or Iris virginica using various programming techniques and machine learning algorithms.
+  
+**3. Interpretation:**
+- Discuss the model's ability to classify and the importance of features.
+
 ![i (5)](https://github.com/user-attachments/assets/6b65602f-102d-4c84-8893-b9978c22622e)
 
+## 🪻Step-by-Step Linear Regression Analysis
+
+### 🪻 Data Preprocessing
+
+**🪻Step 1. Converting letters into numerical values**
+
+&nbsp;&nbsp;&nbsp;&nbsp; In this step, every Class such as Iris setosa, Iris versicolor, or Iris virginica in the data will be converted into numerical values because the model is designed to establish a linear relationship between a dependent variable (the output) and one or more independent variables (the inputs).
+
+&nbsp;&nbsp;&nbsp;&nbsp; For this Iris dataset, we assigned the following numerical values to the corresponding Iris class:
+
+<div align="center">
+ 
+### Class Conversion
+***Iris setosa, Iris versicolor, or Iris virginica***
+
+| Class         | Numerical Value |
+|---------------|-----------------|
+|Iris setosa    | 10              |
+|Iris versicolor| 9               |
+|Iris virginica | 8               |
+
+</div>
+
+**🪻 Step 2. Classification Accuracy Using Programming**
+
+&nbsp;&nbsp;&nbsp;&nbsp; In this part of the analysis, these are the sections of the code where you import libraries and modules that facilitate the implementation of linear regression. Specifically, it involves using libraries like Pandas for data manipulation and Scikit-learn (sklearn) for model training and evaluation.
+
+The following libraries are used for model implementation:
+
+```python
+# Importing the Dataset
+import pandas as pd  # For data manipulation
+
+# Creating the Training Set and Test Set
+from sklearn.model_selection import train_test_split  # For splitting the dataset into train and test sets
+
+# Building the Model
+from sklearn.linear_model import LinearRegression  # For linear regression implementation
+
+```
+
+Explanation:
+
+**1. import pandas as pd:** Imports the Pandas library, which is essential for data manipulation and analysis, particularly for loading and examining the dataset.
+
+**2. from sklearn.model_selection import train_test_split:** Imports the function used to split your dataset into training and testing subsets.
+
+**3. from sklearn.linear_model import LinearRegression:** Imports the LogisticRegression class, which is necessary for creating and training the logistic regression model.
+**4. R-Squared and Adjusted R-Squared**
+
+### 🪻 Evaluation Metrics
+
+&nbsp;&nbsp;&nbsp;&nbsp; After performing data preprocessing and importing the necessary libraries for analysis and visualization, we can now proceed to obtain the inputs and outputs of the given dataset.
+
+**1. Getting the Inputs and Outputs**
+![inputs](https://github.com/user-attachments/assets/0a202734-c4e0-4da3-bae3-4375bee48aa8)
+
+```python
+#row,column
+X = dataset.iloc[:,1:].values #selecting all columns starting from the second column (index 1) to the last column (independent variables)
+y = dataset.iloc[:,0].values #selecting the first column only (dependent variable)
+
+X #showing the array of all independent variables
+
+y #showing the array of all the dependent variable
+```
+
+**2. Creating the Training Set and Test Set**
+![train test](https://github.com/user-attachments/assets/b5c359ce-b722-4fdf-8821-45a62f80f34c)
+
+```python
+#Imports the function used to split your dataset into training and testing subsets.
+from sklearn.model_selection import train_test_split #library, module, function
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=0)
+
+X_train
+X_test
+
+y_train
+y_test
+
+#test_size=0.2: This parameter specifies the proportion of the dataset to include in the test split. In this case, 0.2 means that 20% of the data will be reserved for testing, while 80% will be used for training the model.
+#random_state=0: This parameter is used to control the randomness of the data splitting. Setting a specific integer (like 0) ensures that the split will be the same each time you run the code, which is useful for reproducibility. If you use a different integer or do not set it, the split may vary with each execution, leading to different results.
+
+```
+**3. Building and Training the Model**
+
+![build and train](https://github.com/user-attachments/assets/50790980-5205-4b50-93c7-e9984a35728e)
+
+```python
+#Building the Model
+#Imports the LinearRegression class, which is necessary for creating and training the linear regression model.
+from sklearn.linear_model import LinearcRegression
+model = LinearRegression()
+
+#Training the Model
+model.fit(X_train,y_train)
+```
+
+**4. R-Squared and Adjusted R-Squared**
+
+```python
+
+```
+
+### 🪻 Interpretation
+
+**🪻 Step 3. Interptetation**
+
+**Model's Classification Ability**
+
+**Feature Contributions**
+
+###
 ###
 
 ![i (5)](https://github.com/user-attachments/assets/302af36b-5a61-4e26-b985-7327976d1e39)
+
 ## 🍄About Mushroom Dataset
 
 ## 🍄Content
@@ -500,7 +624,7 @@ $$
 
 In this case, if the confusion matrix reveals an accuracy of around 96%, it signifies that the model effectively identifies mushroom classes in the majority of instances.
 
-**Feature Contributions:**
+**Feature Contributions**
 
 Each feature (e.g., cap shape, cap color, gill attachment, etc.) contributes to the prediction of the class labels. Analyzing feature significance can help identify which characteristics most affect the model's predictions. For example, features such as Cap-Shape, Cap-color, Odor, gill-attachment, and spore print color may have higher correlations with edibility, making them critical for classification.
 
