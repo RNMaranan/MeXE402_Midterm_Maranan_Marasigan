@@ -243,20 +243,55 @@ model.fit(X_train,y_train)
 
 **4. R-Squared**
 ```python
-
+#R-Squared
+#Imports r2_score, which indicates the proportion of the variance in the dependent variable that is explained by the model, with values closer to 1 indicating a better fit.
+from sklearn.metrics import r2_score
+r2 = r2_score(y_test, y_pred)
+r2
 ```
 **5. Adjusted R-Squared**
 ```python
-
+#Adjusted R-Squared
+#These are statistical metrics used to evaluate the performance of the linear regression model.
+k = X_test.shape[1]
+n = X_test.shape[0]
+adj_r2 = 1-(1-r2)*(n-1)/(n-k-1)
+adj_r2
 ```
 
 ### 🪻 Interpretation
 
 **🪻 Step 3. Interptetation**
 
-**Model's Classification Ability**
+**Model's Regression Ability**
+
+&nbsp;&nbsp;&nbsp;&nbsp; The linear regression model developed for predicting species (or another continuous variable) in the Iris dataset evaluates the relationship between the features (such as sepal length, sepal width, petal length, and petal width) and the target variable. The regression model generates predictions based on these features, allowing us to assess how well the model fits the data through various evaluation metrics, including R-Squared and Adjusted R-Squared.
+
+**R-Squared and Adjusted R-Squared Overview**
+
+- R-Squared (R²): Indicates the proportion of variance in the dependent variable (e.g., sepal length) that is explained by the independent variables (e.g., sepal width, petal length, petal width). A higher R² value, closer to 1, suggests a better fit of the model to the data.
+- Adjusted R-Squared: Adjusts the R² value based on the number of predictors, providing a more reliable measure when there are multiple independent variables, as it penalizes the inclusion of irrelevant predictors.
+
+For example, if the model yields an R² of 0.85, it indicates that 85% of the variance in sepal length is explained by the model. If the Adjusted R² is close to this value, it confirms that the predictors contribute meaningfully to the model without overfitting.
+
+**Mean Squared Error (MSE) Calculation**
+
+The Mean Squared Error (MSE) is a key metric used to assess the performance of the regression model. It calculates the average of the squared differences between the observed values and the predicted values, with lower values indicating better model performance. The formula for MSE is:
+
+$$
+\text{MSE} = \frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y_i})^2
+$$
+
+Where:
+- \( y_i \) is the actual value.
+- \( \hat{y_i} \) is the predicted value.
+- \( n \) is the number of observations.
+
+For instance, if the MSE is low (e.g., 0.03), it means the model’s predictions are close to the actual values of the species, indicating good performance.
 
 **Feature Contributions**
+
+Each feature in the Iris dataset (e.g., sepal length, sepal width, petal length, petal width) contributes to predicting the target variable (e.g., species). Analyzing feature coefficients from the regression model can help identify which features have the most significant impact on the predictions. For example, if petal length has a larger positive coefficient, it indicates that petal length has a stronger positive relationship with sepal length, making it a critical factor in prediction.
 
 ###
 ###
