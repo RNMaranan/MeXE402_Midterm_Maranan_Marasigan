@@ -192,12 +192,12 @@ Explanation:
 &nbsp;&nbsp;&nbsp;&nbsp; After performing data preprocessing and importing the necessary libraries for analysis and visualization, we can now proceed to obtain the inputs and outputs of the given dataset.
 
 **1. Getting the Inputs and Outputs**
-![inputs](https://github.com/user-attachments/assets/0a202734-c4e0-4da3-bae3-4375bee48aa8)
+![input output](https://github.com/user-attachments/assets/643e1243-93d1-4fd1-8f48-35ade2866184)
 
 ```python
 #row,column
-X = dataset.iloc[:,1:].values #selecting all columns starting from the second column (index 1) to the last column (independent variables)
-y = dataset.iloc[:,0].values #selecting the first column only (dependent variable)
+X = dataset.iloc[:,:-1].values  # Selecting all columns except the last one (independent variables)
+y = dataset.iloc[:,-1].values  # Selecting the last column only (dependent variable)
 
 X #showing the array of all independent variables
 
@@ -205,7 +205,8 @@ y #showing the array of all the dependent variable
 ```
 
 **2. Creating the Training Set and Test Set**
-![train test](https://github.com/user-attachments/assets/b5c359ce-b722-4fdf-8821-45a62f80f34c)
+![training and test](https://github.com/user-attachments/assets/3df65dc0-a992-4ffe-aeb5-96efee3afd0e)
+
 
 ```python
 #Imports the function used to split your dataset into training and testing subsets.
@@ -224,12 +225,13 @@ y_test
 ```
 **3. Building and Training the Model**
 
-![build and train](https://github.com/user-attachments/assets/50790980-5205-4b50-93c7-e9984a35728e)
+![building and training](https://github.com/user-attachments/assets/2e1bb5da-4474-4b30-9225-bc2384c10298)
+
 
 ```python
 #Building the Model
 #Imports the LinearRegression class, which is necessary for creating and training the linear regression model.
-from sklearn.linear_model import LinearcRegression
+from sklearn.linear_model import LinearRegression
 model = LinearRegression()
 
 #Training the Model
