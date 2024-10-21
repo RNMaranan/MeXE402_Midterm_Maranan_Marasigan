@@ -283,9 +283,9 @@ $$
 $$
 
 Where:
-- \( y_i \) is the actual value.
-- \( \hat{y_i} \) is the predicted value.
-- \( n \) is the number of observations.
+- $$\( y_i \)$$ is the actual value.
+- $$\( \hat{y_i} \)$$ is the predicted value.
+- $$\( n \)$$ is the number of observations.
 
 For instance, if the MSE is low (e.g., 0.03), it means the model’s predictions are close to the actual values of the species, indicating good performance.
 
