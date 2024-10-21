@@ -184,8 +184,11 @@ Explanation:
 
 **2. from sklearn.model_selection import train_test_split:** Imports the function used to split your dataset into training and testing subsets.
 
-**3. from sklearn.linear_model import LinearRegression:** Imports the LogisticRegression class, which is necessary for creating and training the logistic regression model.
-**4. R-Squared and Adjusted R-Squared**
+**3. from sklearn.linear_model import LinearRegression:** Imports the LinearRegression class, which is necessary for creating and training the linear regression model.
+
+**4. from sklearn.metrics import r2_score:** Imports r2_score, which indicates the proportion of the variance in the dependent variable that is explained by the model, with values closer to 1 indicating a better fit.
+
+**5. Adjusted R-Squared:** These are statistical metrics used to evaluate the performance of the linear regression model.
 
 ### 🪻 Evaluation Metrics
 
@@ -238,8 +241,11 @@ model = LinearRegression()
 model.fit(X_train,y_train)
 ```
 
-**4. R-Squared and Adjusted R-Squared**
+**4. R-Squared**
+```python
 
+```
+**5. Adjusted R-Squared**
 ```python
 
 ```
