@@ -242,6 +242,10 @@ model.fit(X_train,y_train)
 ```
 
 **4. R-Squared**
+
+![r2_score](https://github.com/user-attachments/assets/8915735a-76b3-4f3b-a705-32f3bc471d3f)
+
+
 ```python
 #R-Squared
 #Imports r2_score, which indicates the proportion of the variance in the dependent variable that is explained by the model, with values closer to 1 indicating a better fit.
@@ -250,6 +254,7 @@ r2 = r2_score(y_test, y_pred)
 r2
 ```
 **5. Adjusted R-Squared**
+
 ```python
 #Adjusted R-Squared
 #These are statistical metrics used to evaluate the performance of the linear regression model.
