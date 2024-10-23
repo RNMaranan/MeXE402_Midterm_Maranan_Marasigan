@@ -243,7 +243,7 @@ model.fit(X_train,y_train)
 
 **4. R-Squared**
 
-![r2_score](https://github.com/user-attachments/assets/8915735a-76b3-4f3b-a705-32f3bc471d3f)
+![r-squared](https://github.com/user-attachments/assets/8915735a-76b3-4f3b-a705-32f3bc471d3f)
 
 
 ```python
