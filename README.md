@@ -255,6 +255,9 @@ r2
 ```
 **5. Adjusted R-Squared**
 
+![Apex_1729656712968](https://github.com/user-attachments/assets/d0822431-70a6-48c4-82dd-c09426b26e2a)
+
+
 ```python
 #Adjusted R-Squared
 #These are statistical metrics used to evaluate the performance of the linear regression model.
