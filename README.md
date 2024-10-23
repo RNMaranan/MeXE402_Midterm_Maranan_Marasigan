@@ -243,7 +243,7 @@ model.fit(X_train,y_train)
 
 **4. R-Squared**
 
-![r-squared](https://github.com/user-attachments/assets/8915735a-76b3-4f3b-a705-32f3bc471d3f)
+![Apex_1729656635785](https://github.com/user-attachments/assets/5b61a7ac-add4-445d-8757-b0fcbddae729)
 
 
 ```python
