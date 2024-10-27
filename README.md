@@ -1,3 +1,9 @@
+<h1 align="center">
+    <a href="https://git.io/typing-svg">
+        <img src="https://readme-typing-svg.herokuapp.com?font=Press+Start+2P&pause=500&width=950&color=0268c0&lines=MExEE+402+-+MExE+Elective+2+Midterm+Examination" alt="Typing SVG" />
+    </a>
+</h1>
+
 ![Blue Green Pixel Game Streamer YouTube Banner (1)](https://github.com/user-attachments/assets/f951bfa3-c9ef-417c-8b10-7d4d6a770c50)
 
 ###
