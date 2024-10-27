@@ -316,7 +316,7 @@ Each feature in the Iris dataset (e.g., sepal length, sepal width, petal length,
 ## 🍄Dataset Details
 - **Number of Instances:** 8,124
 
-- **Number of Attributes:** 22
+- **Number of Attributes:** 23
 
 - **Independent Variables:** All the attributes except for the class (e.g., cap shape, cap color, odor, etc.) that will be used to predict the outcome.
   
