@@ -279,7 +279,7 @@ adj_r2
 
 **R-Squared and Adjusted R-Squared Overview**
 
-- R-Squared (R²): Indicates the proportion of variance in the dependent variable (e.g., sepal length) that is explained by the independent variables (e.g., sepal width, petal length, petal width). A higher R² value, closer to 1, suggests a better fit of the model to the data.
+- R-Squared (R²): Indicates the proportion of variance in the dependent variable (e.g., class) that is explained by the independent variables (e.g., sepal length, sepal width, petal length, petal width). A higher R² value, closer to 1, suggests a better fit of the model to the data.
 - Adjusted R-Squared: Adjusts the R² value based on the number of predictors, providing a more reliable measure when there are multiple independent variables, as it penalizes the inclusion of irrelevant predictors.
 
 For example, if the model yields an R² of 0.85, it indicates that 85% of the variance in sepal length is explained by the model. If the Adjusted R² is close to this value, it confirms that the predictors contribute meaningfully to the model without overfitting.
