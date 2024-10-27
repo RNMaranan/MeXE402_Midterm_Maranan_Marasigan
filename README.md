@@ -622,7 +622,7 @@ accuracy_score (y_test, y_pred)
 <p align="center">
   <strong>Visualization: Plot Confusion Matrices</strong>
   <br>
-  <img src="https://github.com/user-attachments/assets/cdb5bb82-24ba-4433-b066-4de0ae3aacf7" alt="Visualization: Plot Confusion Matrices" width="500"/>
+  <img src="https://github.com/user-attachments/assets/8e232ef8-ef8c-4b41-a4b9-2c9b6328cba7" alt="Visualization: Plot Confusion Matrices" width="500"/>
 </p>
 
 ```python 
@@ -682,6 +682,37 @@ In this case, if the confusion matrix reveals an accuracy of around 96%, it sign
 Each feature (e.g., cap shape, cap color, gill attachment, etc.) contributes to the prediction of the class labels. Analyzing feature significance can help identify which characteristics most affect the model's predictions. For example, features such as Cap-Shape, Cap-color, Odor, gill-attachment, and spore print color may have higher correlations with edibility, making them critical for classification.
 
 ![i (6)](https://github.com/user-attachments/assets/9c125ee0-0a9b-4038-a82b-54eb4677e378)
+
+<div align="center">
+
+## 🌟 Comparative Summary 🌟
+
+| Feature                | Linear Regression (Iris)          | Logistic Regression (Mushroom)         |
+|------------------------|-----------------------------------|----------------------------------------|
+| **Dataset Type**       | Numeric features                 | Categorical features                   |
+| **Target Variable**    | Continuous                       | Binary (Edible/Poisonous)              |
+| **Performance Metric** | Mean Squared Error     | Classification Accuracy        |
+| **Predictive Strength**| Moderate                         | Strong                                 |
+
+</div>
+
+&nbsp;&nbsp;&nbsp;&nbsp; This table provides a high-level comparison between a linear regression model applied to the Iris dataset and a logistic regression model applied to the Mushroom dataset. The differences in dataset types, target variables, and performance metrics highlight each model's strengths and suitability for specific data characteristics.
+
+<div align="center">
+
+## 🌟 Discussion 🌟
+
+</div>
+
+**🧱 Model Comparison**
+
+&nbsp;&nbsp;&nbsp;&nbsp; The linear regression model was relatively accurate for predicting a continuous outcome within the Iris dataset, although the low MSE still reflects some predictive limitations due to possible collinearity among predictors or non-linear relationships. In contrast, logistic regression demonstrated high classification accuracy in identifying mushroom edibility. Logistic regression’s binary nature aligns well with the Mushroom dataset, indicating that model selection should account for data structure and the type of outcome.
+
+**🧱 Limitations**
+
+&nbsp;&nbsp;&nbsp;&nbsp; **Linear Regression:** The model assumes linearity between predictors and the target variable, which may not capture complex relationships in the Iris dataset. Additionally, MSE does not reflect the model’s ability to generalize well beyond this dataset.
+
+&nbsp;&nbsp;&nbsp;&nbsp; **Logistic Regression:** While logistic regression performed well on the Mushroom dataset, it may face challenges when other dataset's categorical encodings introduce multicollinearity. The high accuracy suggests the model fits well, but a misclassification in real-world settings could have severe consequences (i.e., identifying a poisonous mushroom as edible).
 
 ![Blue Green Pixel Game Streamer YouTube Banner](https://github.com/user-attachments/assets/0ae8ee0e-7e83-4867-b1a6-c12229683f84)
 
