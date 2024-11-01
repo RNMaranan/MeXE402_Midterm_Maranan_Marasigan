@@ -9,13 +9,13 @@
 ###
 
 # Table of Contents
-- [All About Linear Regression](#all-about-linear-regression)
-- [All About Logistic Regression](#all-about-logistic-regression)
-- [About Iris Dataset](#about-iris-dataset)
-- [About Mushroom Dataset](#about-mushroom-dataset)
-- [Comparative Summary](#comparative-summary)
-- [Discussion](#discussion)
-- [References](#references)
+- [🦖 All About Linear Regression](#🦖-all-about-linear-regression)
+- [🦖 All About Logistic Regression](#🦖-all-about-logistic-regression)
+- [🪻 About Iris Dataset](#🪻-about-iris-dataset)
+- [🍄 About Mushroom Dataset](#🍄-about-mushroom-dataset)
+- [🌟 Comparative Summary](#🌟-comparative-summary)
+- [🌟 Discussion](#🌟-discussion)
+- [🏆 References](#🏆-references)
 
 
 ![i](https://github.com/user-attachments/assets/da1e0dbc-5226-4023-a8ce-74ac9857ba0c)
@@ -732,7 +732,7 @@ Each feature (e.g., cap shape, cap color, gill attachment, etc.) contributes to 
 ![Blue Green Pixel Game Streamer YouTube Banner](https://github.com/user-attachments/assets/0ae8ee0e-7e83-4867-b1a6-c12229683f84)
 
 
-### 🏆 References
+## 🏆 References
 <sub>IBM. (2023). About Linear Regression | IBM. Www.ibm.com; IBM. https://www.ibm.com/topics/linear-regression</sub>
 
 <sub>“Iris Dataset,” Kaggle, Aug. 03, 2017. https://www.kaggle.com/datasets/vikrishnan/iris-dataset</sub>
