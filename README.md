@@ -8,20 +8,6 @@
 
 ###
 
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li> <a href="#🦖 All About Linear Regression">🦖 All About Linear Regression</a> </li>
-    <li> <a href="#Dataset Description">Dataset Description</a> </li>
-    <li> <a href="#Project Objectives">Project Objectives</a> </li>
-    <li> <a href="#Linear Regression Anlysis">Linear Regression Anlysis</a> </li>
-    <li> <a href="#Logistic Regression Analysis">Logistic Regression Analysis</a> </li>
-    <li> <a href="#Documentation">Documentaion</a> </li>
-  
-  </ol>
-</details>
-
 ![i](https://github.com/user-attachments/assets/da1e0dbc-5226-4023-a8ce-74ac9857ba0c)
 
 ![i](https://github.com/user-attachments/assets/519d83b8-7c26-414f-a05a-24313248282b)
