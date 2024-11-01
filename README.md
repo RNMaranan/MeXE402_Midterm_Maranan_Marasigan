@@ -22,7 +22,7 @@
 
 ![i](https://github.com/user-attachments/assets/519d83b8-7c26-414f-a05a-24313248282b)
 
- <h1 align="center"> 🦖 All About Linear Regression
+ ## <h1 align="center"> 🦖 All About Linear Regression
 
  ###
  
@@ -64,7 +64,7 @@ This formula is used in linear regression to model the relationship between a de
 
 ![i (2)](https://github.com/user-attachments/assets/c6ba8522-4b52-4eb8-bcf1-3fafe818b392)
 
- <h1 align="center"> 🦖 All About Logistic Regression
+## <h1 align="center"> 🦖 All About Logistic Regression
 
  ###
  
