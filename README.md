@@ -9,20 +9,21 @@
 ###
 
 # Table of Contents
-- [🌟🦖All About Linear Regression🦖🌟](#-all-about-linear-regression)
-- [🌟🦖All About Logistic Regression🦖🌟](#-all-about-logistic-regression)
-- [🪻About Iris Dataset](#about-iris-dataset)
-- [🍄About Mushroom Dataset](#about-mushroom-dataset)
-- [🌟 Comparative Summary 🌟](#-comparative-summary-)
-- [🌟 Discussion 🌟](#-discussion-)
-- [🏆 References](#references)
+- [🦖All About Linear Regression](#🦖all-about-linear-regression)
+- [🦖All About Logistic Regression](#🦖all-about-logistic-regression)
+- [🪻About Iris Dataset](#🪻about-iris-dataset)
+- [🍄About Mushroom Dataset](#🍄about-mushroom-dataset)
+- [🌟 Comparative Summary](#🌟-comparative-summary)
+- [🌟 Discussion](#🌟-discussion)
+- [🏆References](#🏆references)
+
 
 
 ![i](https://github.com/user-attachments/assets/da1e0dbc-5226-4023-a8ce-74ac9857ba0c)
 
 ![i](https://github.com/user-attachments/assets/519d83b8-7c26-414f-a05a-24313248282b)
 
- <h1 align="center"> 🌟🦖All About Linear Regression🦖🌟
+ <h1 align="center"> 🦖All About Linear Regression
 
  ###
  
@@ -64,7 +65,7 @@ This formula is used in linear regression to model the relationship between a de
 
 ![i (2)](https://github.com/user-attachments/assets/c6ba8522-4b52-4eb8-bcf1-3fafe818b392)
 
- <h1 align="center"> 🌟🦖All About Logistic Regression🦖🌟
+ <h1 align="center"> 🦖All About Logistic Regression
 
  ###
  
@@ -700,7 +701,7 @@ Each feature (e.g., cap shape, cap color, gill attachment, etc.) contributes to 
 
 <div align="center">
 
-## 🌟 Comparative Summary 🌟
+## 🌟 Comparative Summary
 
 | Feature                | Linear Regression (Iris)          | Logistic Regression (Mushroom)         |
 |------------------------|-----------------------------------|----------------------------------------|
@@ -715,7 +716,7 @@ Each feature (e.g., cap shape, cap color, gill attachment, etc.) contributes to 
 
 <div align="center">
 
-## 🌟 Discussion 🌟
+## 🌟 Discussion
 
 </div>
 
