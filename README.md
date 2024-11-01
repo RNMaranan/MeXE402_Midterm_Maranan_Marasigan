@@ -9,13 +9,13 @@
 ###
 
 # Table of Contents
-- [🦖 All About Linear Regression](#all-about-linear-regression)
-- [🦖 All About Logistic Regression](#all-about-logistic-regression)
-- [🪻 About Iris Dataset](#about-iris-dataset)
-- [🍄 About Mushroom Dataset](#about-mushroom-dataset)
-- [🌟 Comparative Summary](#comparative-summary)
-- [🌟 Discussion](#discussion)
-- [🏆 References](#references)
+- [All About Linear Regression](#all-about-linear-regression)
+- [All About Logistic Regression](#all-about-logistic-regression)
+- [About Iris Dataset](#about-iris-dataset)
+- [About Mushroom Dataset](#about-mushroom-dataset)
+- [Comparative Summary](#comparative-summary)
+- [Discussion](#discussion)
+- [References](#references)
 
 
 ![i](https://github.com/user-attachments/assets/da1e0dbc-5226-4023-a8ce-74ac9857ba0c)
