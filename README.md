@@ -9,20 +9,20 @@
 ###
 
 # Table of Contents
-- [🦖All About Linear Regression](#all-about-linear-regression)
-- [🦖All About Logistic Regression](#all-about-logistic-regression)
-- [🪻About Iris Dataset](#about-iris-dataset)
-- [🍄About Mushroom Dataset](#about-mushroom-dataset)
+- [🦖 All About Linear Regression](#all-about-linear-regression)
+- [🦖 All About Logistic Regression](#all-about-logistic-regression)
+- [🪻 About Iris Dataset](#about-iris-dataset)
+- [🍄 About Mushroom Dataset](#about-mushroom-dataset)
 - [🌟 Comparative Summary](#comparative-summary)
 - [🌟 Discussion](#discussion)
-- [🏆References](#references)
+- [🏆 References](#references)
 
 
 ![i](https://github.com/user-attachments/assets/da1e0dbc-5226-4023-a8ce-74ac9857ba0c)
 
 ![i](https://github.com/user-attachments/assets/519d83b8-7c26-414f-a05a-24313248282b)
 
- <h1 align="center"> 🦖All About Linear Regression
+ <h1 align="center"> 🦖 All About Linear Regression
 
  ###
  
@@ -64,7 +64,7 @@ This formula is used in linear regression to model the relationship between a de
 
 ![i (2)](https://github.com/user-attachments/assets/c6ba8522-4b52-4eb8-bcf1-3fafe818b392)
 
- <h1 align="center"> 🦖All About Logistic Regression
+ <h1 align="center"> 🦖 All About Logistic Regression
 
  ###
  
@@ -105,7 +105,7 @@ This formula is used in logistic regression to model the probability of a binary
 
 
 ![i (3)](https://github.com/user-attachments/assets/2d029eef-b02d-4324-a5a3-aaee115fbaff)
-## 🪻About Iris Dataset
+## 🪻 About Iris Dataset
 
 ## 🪻Content
 &nbsp;&nbsp;&nbsp;&nbsp; The Iris flower data set or Fisher's Iris data set is a multivariate data set introduced by the British statistician and biologist Ronald Fisher in his 1936 paper. The use of multiple measurements in taxonomic problems as an example of linear discriminant analysis.[1] It is sometimes called Anderson's Iris data set because Edgar Anderson collected the data to quantify the morphologic variation of Iris flowers of three related species.[2] Two of the three species were collected in the Gaspé Peninsula "all from the same pasture, and picked on the same day and measured at the same time by the same person with the same apparatus".[3]
@@ -323,7 +323,7 @@ Each feature in the Iris dataset (e.g., sepal length, sepal width, petal length,
 
 ![i (5)](https://github.com/user-attachments/assets/302af36b-5a61-4e26-b985-7327976d1e39)
 
-## 🍄About Mushroom Dataset
+## 🍄 About Mushroom Dataset
 
 ## 🍄Content
 &nbsp;&nbsp;&nbsp;&nbsp; This dataset includes descriptions of hypothetical samples corresponding to 23 species of gilled mushrooms in the Agaricus and Lepiota Family Mushroom drawn from The Audubon Society Field Guide to North American Mushrooms (1981). Each species is identified as definitely edible, definitely poisonous, or of unknown edibility and not recommended. This latter class was combined with the poisonous one. The Guide clearly states that there is no simple rule for determining the edibility of a mushroom; no rule like "leaflets three, let it be'' for Poisonous Oak and Ivy.
